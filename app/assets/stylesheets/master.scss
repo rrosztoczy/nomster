@@ -1,11 +1,12 @@
 @import "bootstrap";
+@import "font-awesome";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
 
 body {
     background: url('/assets/crossword.png');
     font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
-  }
+}
 
 h1,
 h2,
@@ -15,7 +16,9 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
-};
+}
+
+;
 
 .booyah-box {
     -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -27,7 +30,9 @@ h6 {
     margin-top: 10px;
     margin-bottom: 15px;
     padding: 20px;
-};
+}
+
+;
 
 .navbar {
     background: url('/assets/cartographer.png');
@@ -36,4 +41,4 @@ h6 {
 
 .navbar-inverse .navbar-brand {
     font-family: 'Open Sans Condensed', sans-serif;
-  }
+}
